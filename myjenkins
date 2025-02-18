@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build kartoy re'
+                bat 'test.java'
             }
         }
         stage('Test') {
