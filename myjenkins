@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Build kartoy re'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Test chalu aahe'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploy kartoy thmb'
+            }
+        }
+    }
+}
